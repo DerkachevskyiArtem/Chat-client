@@ -1,0 +1,70 @@
+.messageItem {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 12px;
+  max-width: 60%;
+}
+
+.myMessage {
+  align-self: flex-end;
+  flex-direction: row-reverse;
+  text-align: right;
+  margin-left: auto;
+}
+
+
+.theirMessage {
+  align-self: flex-start;
+  flex-direction: row;
+  margin-right: auto;
+}
+
+.avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 8px;
+  flex-shrink: 0;
+}
+
+.messageContent {
+  max-width: 100%;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  word-break: break-word;
+  white-space: pre-wrap;
+  border-radius: 10px;
+  padding: 8px 12px;
+}
+
+.myMessage .messageContent {
+  background-color: #e6e6e6;
+  color: #000;
+}
+
+.theirMessage .messageContent {
+  background-color: #444;
+  color: #fff;
+}
+
+.authorName {
+  font-size: 12px;
+  color: #bbb;
+  margin-bottom: 4px;
+}
+
+.text {
+  font-size: 14px;
+}
+
+.timestamp {
+  font-size: 12px;
+  color: #aaa;
+  margin-top: 4px;
+  text-align: right;
+}

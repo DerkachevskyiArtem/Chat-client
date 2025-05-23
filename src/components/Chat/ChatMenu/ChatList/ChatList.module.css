@@ -1,0 +1,19 @@
+.chatListContainer {
+  max-height: 400px; 
+  overflow-y: auto; 
+  padding-right: 10px; 
+}
+
+.chatList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.placeholder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-size: 1.2rem;
+  color: #888;
+}

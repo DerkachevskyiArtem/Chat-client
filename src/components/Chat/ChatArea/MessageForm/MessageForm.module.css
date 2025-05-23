@@ -1,0 +1,59 @@
+.messageFormContainer {
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  width: 100%;
+}
+
+.messageForm {
+  padding: 10px;
+  min-width: 1000px;
+}
+
+
+.messageFormInput {
+  border: none;
+  outline: none;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 15px;
+  margin-right: 10px;
+  flex-grow: 1; 
+}
+
+.messageFormButton {
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.messageFormButton:hover {
+  opacity: 0.7;
+}
+
+@media (max-width: 768px) {
+  .messageForm {
+    min-width: auto;
+    width: 100%;
+    padding: 8px;
+
+  }
+
+  .messageFormContainer {
+    flex-direction: column;
+    align-items: stretch;
+    padding: 0;
+  }
+
+  .messageFormInput {
+    margin-right: 0;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+
+  .messageFormButton {
+    width: 100%;
+    font-size: 18px;
+  }
+}
